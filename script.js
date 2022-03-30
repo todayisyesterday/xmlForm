@@ -21,6 +21,7 @@ document.getElementById("unesi").addEventListener("click", e => {
     linkZaPreuzimanje.href=kreirajFajl(noviXML(knjige.join("")));
     linkZaPreuzimanje.innerHTML="preuzmi";
     linkZaPreuzimanje.download="knjizara.xml";
+    linkZaPreuzimanje.style.display="block";
   })
 })
 
