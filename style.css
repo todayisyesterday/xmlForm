@@ -1,0 +1,21 @@
+#forma {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 200px;
+}
+
+#list {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 200px;
+}
+
+h1 {
+  position:absolute;
+  left: 50%;
+  right: 50%;
+}
